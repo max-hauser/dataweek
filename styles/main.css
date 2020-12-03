@@ -78,7 +78,7 @@ main img {
 .zwerver{
   width: 30vh;
   position: absolute;
-  left: 8vw;
+  right: 0vw;
   z-index: 1;
   top: 20vh;
 }
