@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "PleaseWriteMeASong";
+  src: url("../fonts/PleaseWriteMeASong-70vV.ttf") format("truetype");
+}
+
+h1{
+  font-family: "PleaseWriteMeASong";
+  text-align: center;
+}
+
+html{
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+body{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+#producten{
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  width: 5vw;
+  height: 80vh;
+  box-shadow: 0px 0px 10px #666;
+  margin-top: 5vh;
+  overflow-y: scroll;
+}
+
+aside{
+  position: absolute;
+  left: 2vw;
+  z-index: 999;
+}
+
+#producten ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+}
+
+#producten ul img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+main{
+  background-image: url('../background.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+main img {
+  width: 100px;
+  height: auto;
+  z-index: 99999;
+}
+
+.wrapper{
+  padding: 15px;
+  border: 3px dashed black;
+  display: flex;
+  flex-direction: column-reverse;  
+}
+
+.zwerver{
+  width: 30vh;
+  position: absolute;
+  left: 8vw;
+  z-index: 1;
+  top: 20vh;
+}
+
+.options{
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.options.show{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  transform: rotate(-90deg);
+}
+
+button{
+  margin-top: 80px;
+  border: none;
+  background: crimson;
+  color: #fff;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 75px auto;
+}
