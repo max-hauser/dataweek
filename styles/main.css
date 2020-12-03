@@ -6,7 +6,7 @@
 h1{
   font-family: "PleaseWriteMeASong";
   text-align: center;
-  font-size: 1.4em;
+  font-size: 2.5em;
 }
 
 html{
@@ -107,4 +107,12 @@ button{
   padding: 5px;
   border-radius: 5px;
   margin: 75px auto;
+}
+
+p {
+  position: absolute;
+  top: 7px;
+  left: 2vw;
+  font-size: 1.5em;
+  margin: 0px;
 }
